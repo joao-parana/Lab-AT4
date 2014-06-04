@@ -1,2 +1,2 @@
-### Configuração baseado em SomaConfig-AT-4.xml
+### ConfiguraÃ§Ã£o baseado em SomaConfig-AT-4.xml
 

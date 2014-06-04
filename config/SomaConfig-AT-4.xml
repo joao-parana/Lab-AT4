@@ -1,522 +1,478 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<somaConfig name="Laboratório de Mecanica-AT4">
-	<plant-list>
-		<plant id="01" name="Laboratório de Mecânica Aplicada" title="Laboratório de Mecânica Aplicada"
-			description="Laboratório de Mecânica Aplicada">
-			<items>
-				<item id="01" name="Máquina Rotativa-Vertical" title="Máquina Rotativa-Vertical"
-					description="Máquina Rotativa-Vertical">
-				<components>
-					<component id="101" name="Mancal Superior" title="Mancal Superior"
-							description="Mancal Superior">
-							<data-sources>
-								<data-source id="301" name="MRV-MS-TEMP-1" title="MRV-MS-TEMP-1"
-									description="TEMPERATURA-1 NO MANCAL SUPERIOR DA MÁQUINA ROTATIVA VERTICAL"
-									index="0" queue="1204" dataSourceType="810" location="1401" />
-							</data-sources>
-						</component>
-					<component id="102" name="Mancal Inferior" title="Mancal Inferior"
-							description="Mancal Inferior">
-							<data-sources>
-								<data-source id="302" name="MRV-MI-TEMP-1" title="MRV-MI-TEMP-1"
-									description="TEMPERATURA-1 NO MANCAL INFERIOR DA MÁQUINA ROTATIVA VERTICAL"
-									index="1" queue="1204" dataSourceType="810" location="1402" />
-							</data-sources>
-						</component>
-					<component id="103" name="Eixo MRV" title="Eixo"
-							  description="Eixo da Máquina Rotativa Vertical">
-						<data-sources>
-								<data-source id="303" name="MRV-EIXO-DESL-1" title="MRV-EIXO-DESL-1"
-									description="DESLOCAMENTO-1 NO EIXO DA MÁQUINA ROTATIVA VERTICAL"
-									index="0" queue="1202" dataSourceType="802" location="1403" />
-								<data-source id="304" name="MRV-EIXO-DESL-2" title="MRV-EIXO-DESL-2"
-									description="DESLOCAMENTO-2 NO EIXO DA MÁQUINA ROTATIVA VERTICAL"
-									index="1" queue="1202" dataSourceType="802" location="1403" />
-								<data-source id="305" name="MRV-EIXO-DESL-3" title="MRV-EIXO-DESL-3"
-									description="DESLOCAMENTO-3 NO EIXO DA MÁQUINA ROTATIVA VERTICAL"
-									index="2" queue="1202" dataSourceType="802" location="1403" />
-							</data-sources>	  
-					 </component>
-					<component id="104" name="Estrutura Externa MRV" title="Estrutura Externa"
-							  description="Estrutura Externa da Máquina Rotativa Vertical">		  						
-							<data-source>
-								 <data-source id="306" name="MRV-EE-ACEL-1" title="MRV-EE-ACEL-1"
-									description="ACELERAÇÃO-1 NA ESTRUTURA EXTERNA DA MÁQUINA ROTATIVA VERTICAL"
-									index="0" queue="1201" dataSourceType="803" location="1404" />
-							 <data-source id="307" name="MRV-EE-ACEL-2" title="MRV-EE-ACEL-2"
-							  		 description="ACELERAÇÃO-2 NA ESTRUTURA EXTERNA DA MÁQUINA ROTATIVA VERTICAL"
-							  		 index="1" queue="1201" dataSourceType="803" location="1404" />
-							 <data-source id="308" name="MRV-EE-ACEL-3" title="MRV-EE-ACEL-3"
-							  		 description="ACELERAÇÃO-3 NA ESTRUTURA EXTERNA DA MÁQUINA ROTATIVA VERTICAL"
-									index="2" queue="1201" dataSourceType="803" location="1404" />
-							  <data-source id="309" name="MRV-EE-ACEL-4" title="MRV-EE-ACEL-4"
-									description="ACELERAÇÃO-4 NA ESTRUTURA EXTERNA DA MÁQUINA ROTATIVA VERTICAL"
-									index="3" queue="1201" dataSourceType="803" location="1404" />
-							</data-source>
-													
-					</component>
+<?xml version="1.0" encoding="UTF-8"?>
+<somaConfig name="LaboratÃ³rio de Mecanica-AT4">
+  <plant-list>
+    <plant id="01" name="LaboratÃ³rio de MecÃ¢nica Aplicada" title="LaboratÃ³rio de MecÃ¢nica Aplicada"
+      description="LaboratÃ³rio de MecÃ¢nica Aplicada">
+      <items>
+        <item id="01" name="MÃ¡quina Rotativa-Vertical" title="MÃ¡quina Rotativa-Vertical"
+          description="MÃ¡quina Rotativa-Vertical">
+        <components>
+          <component id="101" name="Mancal Superior" title="Mancal Superior"
+              description="Mancal Superior">
+              <data-sources>
+                <data-source id="301" name="MRV-MS-TEMP-1" title="MRV-MS-TEMP-1"
+                  description="TEMPERATURA-1 NO MANCAL SUPERIOR DA MÃQUINA ROTATIVA VERTICAL"
+                  index="0" queue="1204" dataSourceType="810" location="1401" />
+              </data-sources>
+            </component>
+          <component id="102" name="Mancal Inferior" title="Mancal Inferior"
+              description="Mancal Inferior">
+              <data-sources>
+                <data-source id="302" name="MRV-MI-TEMP-1" title="MRV-MI-TEMP-1"
+                  description="TEMPERATURA-1 NO MANCAL INFERIOR DA MÃQUINA ROTATIVA VERTICAL"
+                  index="1" queue="1204" dataSourceType="810" location="1402" />
+              </data-sources>
+            </component>
+          <component id="103" name="Eixo MRV" title="Eixo"
+                description="Eixo da MÃ¡quina Rotativa Vertical">
+            <data-sources>
+                <data-source id="303" name="MRV-EIXO-DESL-1" title="MRV-EIXO-DESL-1"
+                  description="DESLOCAMENTO-1 NO EIXO DA MÃQUINA ROTATIVA VERTICAL"
+                  index="0" queue="1202" dataSourceType="802" location="1403" />
+                <data-source id="304" name="MRV-EIXO-DESL-2" title="MRV-EIXO-DESL-2"
+                  description="DESLOCAMENTO-2 NO EIXO DA MÃQUINA ROTATIVA VERTICAL"
+                  index="1" queue="1202" dataSourceType="802" location="1403" />
+                <data-source id="305" name="MRV-EIXO-DESL-3" title="MRV-EIXO-DESL-3"
+                  description="DESLOCAMENTO-3 NO EIXO DA MÃQUINA ROTATIVA VERTICAL"
+                  index="2" queue="1202" dataSourceType="802" location="1403" />
+              </data-sources>
+           </component>
+          <component id="104" name="Estrutura Externa MRV" title="Estrutura Externa"
+                description="Estrutura Externa da MÃ¡quina Rotativa Vertical">
+              <data-source>
+                 <data-source id="306" name="MRV-EE-ACEL-1" title="MRV-EE-ACEL-1"
+                  description="ACELERAÃ‡ÃƒO-1 NA ESTRUTURA EXTERNA DA MÃQUINA ROTATIVA VERTICAL"
+                  index="0" queue="1201" dataSourceType="803" location="1404" />
+               <data-source id="307" name="MRV-EE-ACEL-2" title="MRV-EE-ACEL-2"
+                     description="ACELERAÃ‡ÃƒO-2 NA ESTRUTURA EXTERNA DA MÃQUINA ROTATIVA VERTICAL"
+                     index="1" queue="1201" dataSourceType="803" location="1404" />
+               <data-source id="308" name="MRV-EE-ACEL-3" title="MRV-EE-ACEL-3"
+                     description="ACELERAÃ‡ÃƒO-3 NA ESTRUTURA EXTERNA DA MÃQUINA ROTATIVA VERTICAL"
+                  index="2" queue="1201" dataSourceType="803" location="1404" />
+                <data-source id="309" name="MRV-EE-ACEL-4" title="MRV-EE-ACEL-4"
+                  description="ACELERAÃ‡ÃƒO-4 NA ESTRUTURA EXTERNA DA MÃQUINA ROTATIVA VERTICAL"
+                  index="3" queue="1201" dataSourceType="803" location="1404" />
+              </data-source>
+
+          </component>
                 </components>
-				</item>
-				<item id="02" name="Máquina Rotativa-Horizontal" title="Máquina Rotativa-Horizontal"
-					description="Máquina Rotativa-Horizontal">
-				<components>
-				   <component id="105" name="Mancal Motor" title="Mancal Motor"
-							description="Mancal do Motor">
-							<data-sources>
-								<data-source id="310" name="MRH-MM-TEMP-1" title="MRH-MM-TEMP-1"
-									description="TEMPERATURA-1 NO MANCAL DO MOTOR DA MÁQUINA ROTATIVA HORIZONTAL"
-									index="2" queue="1204" dataSourceType="810" location="1405" />
-							</data-sources>
-			 	    </component>
-			       <component id="106" name="Mancal" title="Mancal"
-							description="Mancal">
-							<data-sources>
-								<data-source id="311" name="MRH-M-TEMP-1" title="MRH-M-TEMP-1"
-									description="TEMPERATURA-1 NO MANCAL DA MÁQUINA ROTATIVA HORIZONTAL"
-									index="3" queue="1204" dataSourceType="810" location="1406" />
-				       </data-sources>
-				    </component>
-		           <component id="107" name="Eixo MRH" title="Eixo"
-							description="Eixo da Máquina Rotativa Horizontal">
-							<data-sources>
-								<data-source id="312" name="MRH-EIXO-DESL-1" title="MRH-EIXO-DESL-1"
-									description="DESLOCAMENTO-1 NO EIXO DA MÁQUINA ROTATIVA HORIZONTAL"
-									index="3" queue="1202" dataSourceType="802" location="1407" />
-								<data-source id="313" name="MRH-EIXO-DESL-1" title="MRH-EIXO-DESL-2"
-									description="DESLOCAMENTO-2 NO EIXO DA MÁQUINA ROTATIVA HORIZONTAL"
-									index="14" queue="1203" dataSourceType="802" location="1407" />
-								<data-source id="314" name="MRH-EIXO-DESL-3" title="MRH-EIXO-DESL-3"
-									description="DESLOCAMENTO-3 NO EIXO DA MÁQUINA ROTATIVA HORIZONTAL"
-									index="15" queue="1203" dataSourceType="802" location="1407" />
-				       </data-sources>
-				    </component>
-				   <component id="108" name="Estrututa Externa MRH" title="Estrututa Externa"
-						description="Estrututa Externa da Máquina Rotativa Horizontal">
-							<data-sources>
-								<data-source id="315" name="MRH-EE-ACEL-1" title="MRH-EE-ACEL-1"
-									description="ACELERAÇÃO-1 NA ESTRUTURA EXTERNA DA MÁQUINA ROTATIVA HORIZONTAL"
-									index="4" queue="1201" dataSourceType="803" location="1408" />
-								<data-source id="316" name="MRH-EE-ACEL-2" title="MRH-EE-ACEL-2"
-									description="ACELERAÇÃO-2 NA ESTRUTURA EXTERNA DA MÁQUINA ROTATIVA HORIZONTAL"
-									index="5" queue="1201" dataSourceType="803" location="1408" />
-							</data-sources>
-			 	   </component>
-				</components>
-				</item>
-				<item id="03" name="Bancada de Mecânica Aplicada" title="Bancada de Mecânica Aplicada"
-					description="Bancada de Mecânica Aplicada">
-				 <components>
-					<component id="109" name="Pêndulo Simples 1GL" title="Pêndulo Simples 1GL"
-							description="Pêndulo Simples com 1 Grau de Liberdade">
-							<data-sources>
-								<data-source id="317" name="BMA-PS1GL-ACEL-1" title="BMA-PS1GL-ACEL-1"
-									description="ACELERAÇÃO-1 NO PÊNDULO SIMPLES (COM 1 GRAU DE LIBERDADE) DA BANCADA DE MECÂNICA APLICADA"
-									index="6" queue="1201" dataSourceType="803" location="1409" />
-							<data-source id="318" name="BMA-PS1GL-ACEL-2" title="BMA-PS1GL-ACEL-2"
-									description="ACELERAÇÃO-2 NO PÊNDULO SIMPLES (COM 1 GRAU DE LIBERDADE) DA BANCADA DE MECÂNICA APLICADA"
-									index="7" queue="1201" dataSourceType="803" location="1409" />
-									
-							</data-sources>
-			 	      </component>  
-			 	   	<component id="110" name="Pêndulo Composto 1GL" title="Pêndulo Composto 1GL"
-							description="Pêndulo Composto com 1 Grau de Liberdade">		
-						     <data-sources>
-								   <data-source id="319" name="BMA-PC1GL-ACEL-1" title="BMA-PC1GL-ACEL-1"
-									description="ACELERAÇÃO-1 NO PÊNDULO COMPOSTO (COM 1 GRAU DE LIBERDADE) DA BANCADA DE MECÂNICA APLICADA"
-									index="0" queue="1203" dataSourceType="803" location="1410" />
-						      </data-sources>
-					</component>  		  
-					<component id="111" name="Pêndulo Simples 2GL" title="Pêndulo Simples 2GL"
-							description="Pêndulo Simples com 2 Graus de Liberdade">
-							<data-sources>
-								<data-source id="320" name="BMA-PS2GL-ACEL-1" title="BMA-PS2GL-ACEL-1"
-									description="ACELERAÇÃO-1 NO PÊNDULO SIMPLES (COM 2 GRAUS DE LIBERDADE) DA BANCADA DE MECÂNICA APLICADA"
-									index="1" queue="1203" dataSourceType="803" location="1411" />
-							    <data-source id="321" name="BMA-PS2GL-ACEL-2" title="BMA-PS2GL-ACEL-2"
-									description="ACELERAÇÃO-2 NO PÊNDULO SIMPLES (COM 2 GRAUS DE LIBERDADE) DA BANCADA DE MECÂNICA APLICADA"
-									index="2" queue="1203" dataSourceType="803" location="1411" />
-							    <data-source id="322" name="BMA-PS2GL-ACEL-3" title="BMA-PS2GL-ACEL-3"
-									description="ACELERAÇÃO-3 NO PÊNDULO SIMPLES (COM 2 GRAUS DE LIBERDADE) DA BANCADA DE MECÂNICA APLICADA"
-									index="3" queue="1203" dataSourceType="803" location="1411" />
-						</data-sources>
-			 	     </component>
-			 	    <component id="112" name="Pêndulo Simples 3GL" title="Pêndulo Simples 3GL"
-							description="Pêndulo Simples com 3 Graus de Liberdade">
-							<data-sources>
-								<data-source id="323" name="BMA-PS3GL-ACEL-1" title="BMA-PS3GL-ACEL-1"
-									description="ACELERAÇÃO-1 NO PÊNDULO SIMPLES (COM 3 GRAUS DE LIBERDADE) DA BANCADA DE MECÂNICA APLICADA"
-									index="4" queue="1203" dataSourceType="803" location="1412" />
-							<data-source id="324" name="BMA-PS3GL-ACEL-2" title="BMA-PS3GL-ACEL-2"
-									description="ACELERAÇÃO-2 NO PÊNDULO SIMPLES (COM 3 GRAUS DE LIBERDADE) DA BANCADA DE MECÂNICA APLICADA"
-									index="5" queue="1203" dataSourceType="803" location="1412" />
-							<data-source id="325" name="BMA-PS3GL-ACEL-3" title="BMA-PS3GL-ACEL-3"
-									description="ACELERAÇÃO-3 NO PÊNDULO SIMPLES (COM 3 GRAUS DE LIBERDADE) DA BANCADA DE MECÂNICA APLICADA"
-									index="6" queue="1203" dataSourceType="803" location="1412" />
-										<data-source id="326" name="BMA-PS3GL-ACEL-4" title="BMA-PS3GL-ACEL-4"
-									description="ACELERAÇÃO-4 NO PÊNDULO SIMPLES (COM 3 GRAUS DE LIBERDADE) DA BANCADA DE MECÂNICA APLICADA"
-									index="7" queue="1203" dataSourceType="803" location="1412" />
-							</data-sources>
-					</component>
-					<component id="113" name="Pêndulo Composto 2GL" title="Pêndulo Composto 2GL"
-						 description="Pêndulo Composto com 2 Graus de Liberdade">
-							<data-sources>
-								<data-source id="327" name="BMA-PC2GL-ACEL-1" title="BMA-PC2GL-ACEL-1"
-									description="ACELERAÇÃO-1 NO PÊNDULO COMPOSTO (COM 2 GRAUS DE LIBERDADE) DA BANCADA DE MECÂNICA APLICADA"
-									index="8" queue="1203" dataSourceType="803" location="1413" />
-								<data-source id="328" name="BMA-PC2GL-ACEL-2" title="BMA-PC2GL-ACEL-2"
-									description="ACELERAÇÃO-2 NO PÊNDULO COMPOSTO (COM 2 GRAUS DE LIBERDADE) DA BANCADA DE MECÂNICA APLICADA"
-									index="9" queue="1203" dataSourceType="803" location="1413" />
-						</data-sources>
-					</component>
-			 	   	<component id="114" name="Sistema MK Vertical 1GL" title="Sistema MK Vertical 1GL"
-							description="Sistema Massa Molar Vertical com 1 Grau de Liberdade">
-							<data-sources>
-								<data-source id="329" name="BMA-SMKV1GL-ACEL-1" title="BMA-SMKV1GL-ACEL-1"
-									description="ACELERAÇÃO-1 NO SISTEMA DE MASSA MOLAR VERTICAL (COM 1 GRAU DE LIBERDADE) DA BANCADA DE MECÂNICA APLICADA"
-									index="10" queue="1203" dataSourceType="803" location="1414" />
-						</data-sources>
-			 	   </component>
-			 	    <component id="115" name="Sistema MK Horizontal 1GL" title="Sistema MK Horizontal 1GL"
-							description="Sistema Massa Molar Horizontal com 1 Grau de Liberdade">
-							<data-sources>
-								<data-source id="330" name="BMA-SMKH1GL-ACEL-1" title="BMA-SMKH1GL-ACEL-1"
-									description="ACELERAÇÃO-1 NO SISTEMA DE MASSA MOLAR HORIZONTAL (COM 1 GRAU DE LIBERDADE) DA BANCADA DE MECÂNICA APLICADA"
-									index="11" queue="1203" dataSourceType="803" location="1415" />
-						</data-sources>
-			 	   </component>
-			 	    <component id="116" name="Sistema MK Vertical 2GL" title="Sistema MK Vertical 2GL"
-							description="Sistema Massa Molar Vertical com 2 Graus de Liberdade">
-							<data-sources>
-								<data-source id="331" name="BMA-SMKV2GL-ACEL-1" title="BMA-SMKV2GL-ACEL-1"
-									description="ACELERAÇÃO-1 NO SISTEMA DE MASSA MOLAR VERTICAL (COM 2 GRAUS DE LIBERDADE) DA BANCADA DE MECÂNICA APLICADA"
-									index="12" queue="1203" dataSourceType="803" location="1416" />
-								<data-source id="332" name="BMA-SMKV2GL-ACEL-2" title="BMA-SMKV2GL-ACEL-2"
-									description="ACELERAÇÃO-2 NO SISTEMA DE MASSA MOLAR VERTICAL (COM 2 GRAUS DE LIBERDADE) DA BANCADA DE MECÂNICA APLICADA"
-									index="13" queue="1203" dataSourceType="803" location="1416" />
-						</data-sources>
-					</component>
-					<component id="117" name="Sistema MK Horizontal 2GL" title="Sistema MK Horizontal 2GL"
-							description="Sistema Massa Molar Horizontal com 2 Graus de Liberdade">
-							<data-sources>
-								<data-source id="333" name="BMA-SMKH2GL-ACEL-1" title="BMA-SMKH2GL-ACEL-1"
-									description="ACELERAÇÃO-1 NO SISTEMA DE MASSA MOLAR HORIZONTAL (COM 2 GRAUS DE LIBERDADE) DA BANCADA DE MECÂNICA APLICADA"
-									index="0" queue="1205" dataSourceType="803" location="1417" />
-								<data-source id="334" name="BMA-SMKH2GL-ACEL-2" title="BMA-SMKH2GL-ACEL-2"
-									description="ACELERAÇÃO-2 NO SISTEMA DE MASSA MOLAR HORIZONTAL (COM 2 GRAUS DE LIBERDADE) DA BANCADA DE MECÂNICA APLICADA"
-									index="1" queue="1205" dataSourceType="803" location="1417" />
-						</data-sources>
-					</component>
-			 	</components>
+        </item>
+        <item id="02" name="MÃ¡quina Rotativa-Horizontal" title="MÃ¡quina Rotativa-Horizontal"
+          description="MÃ¡quina Rotativa-Horizontal">
+        <components>
+           <component id="105" name="Mancal Motor" title="Mancal Motor"
+              description="Mancal do Motor">
+              <data-sources>
+                <data-source id="310" name="MRH-MM-TEMP-1" title="MRH-MM-TEMP-1"
+                  description="TEMPERATURA-1 NO MANCAL DO MOTOR DA MÃQUINA ROTATIVA HORIZONTAL"
+                  index="2" queue="1204" dataSourceType="810" location="1405" />
+              </data-sources>
+             </component>
+             <component id="106" name="Mancal" title="Mancal"
+              description="Mancal">
+              <data-sources>
+                <data-source id="311" name="MRH-M-TEMP-1" title="MRH-M-TEMP-1"
+                  description="TEMPERATURA-1 NO MANCAL DA MÃQUINA ROTATIVA HORIZONTAL"
+                  index="3" queue="1204" dataSourceType="810" location="1406" />
+               </data-sources>
+            </component>
+               <component id="107" name="Eixo MRH" title="Eixo"
+              description="Eixo da MÃ¡quina Rotativa Horizontal">
+              <data-sources>
+                <data-source id="312" name="MRH-EIXO-DESL-1" title="MRH-EIXO-DESL-1"
+                  description="DESLOCAMENTO-1 NO EIXO DA MÃQUINA ROTATIVA HORIZONTAL"
+                  index="3" queue="1202" dataSourceType="802" location="1407" />
+                <data-source id="313" name="MRH-EIXO-DESL-1" title="MRH-EIXO-DESL-2"
+                  description="DESLOCAMENTO-2 NO EIXO DA MÃQUINA ROTATIVA HORIZONTAL"
+                  index="14" queue="1203" dataSourceType="802" location="1407" />
+                <data-source id="314" name="MRH-EIXO-DESL-3" title="MRH-EIXO-DESL-3"
+                  description="DESLOCAMENTO-3 NO EIXO DA MÃQUINA ROTATIVA HORIZONTAL"
+                  index="15" queue="1203" dataSourceType="802" location="1407" />
+               </data-sources>
+            </component>
+           <component id="108" name="Estrututa Externa MRH" title="Estrututa Externa"
+            description="Estrututa Externa da MÃ¡quina Rotativa Horizontal">
+              <data-sources>
+                <data-source id="315" name="MRH-EE-ACEL-1" title="MRH-EE-ACEL-1"
+                  description="ACELERAÃ‡ÃƒO-1 NA ESTRUTURA EXTERNA DA MÃQUINA ROTATIVA HORIZONTAL"
+                  index="4" queue="1201" dataSourceType="803" location="1408" />
+                <data-source id="316" name="MRH-EE-ACEL-2" title="MRH-EE-ACEL-2"
+                  description="ACELERAÃ‡ÃƒO-2 NA ESTRUTURA EXTERNA DA MÃQUINA ROTATIVA HORIZONTAL"
+                  index="5" queue="1201" dataSourceType="803" location="1408" />
+              </data-sources>
+            </component>
+        </components>
+        </item>
+        <item id="03" name="Bancada de MecÃ¢nica Aplicada" title="Bancada de MecÃ¢nica Aplicada"
+          description="Bancada de MecÃ¢nica Aplicada">
+         <components>
+          <component id="109" name="PÃªndulo Simples 1GL" title="PÃªndulo Simples 1GL"
+              description="PÃªndulo Simples com 1 Grau de Liberdade">
+              <data-sources>
+                <data-source id="317" name="BMA-PS1GL-ACEL-1" title="BMA-PS1GL-ACEL-1"
+                  description="ACELERAÃ‡ÃƒO-1 NO PÃŠNDULO SIMPLES (COM 1 GRAU DE LIBERDADE) DA BANCADA DE MECÃ‚NICA APLICADA"
+                  index="6" queue="1201" dataSourceType="803" location="1409" />
+              <data-source id="318" name="BMA-PS1GL-ACEL-2" title="BMA-PS1GL-ACEL-2"
+                  description="ACELERAÃ‡ÃƒO-2 NO PÃŠNDULO SIMPLES (COM 1 GRAU DE LIBERDADE) DA BANCADA DE MECÃ‚NICA APLICADA"
+                  index="7" queue="1201" dataSourceType="803" location="1409" />
 
-				</item>
+              </data-sources>
+               </component>
+              <component id="110" name="PÃªndulo Composto 1GL" title="PÃªndulo Composto 1GL"
+              description="PÃªndulo Composto com 1 Grau de Liberdade">
+                 <data-sources>
+                   <data-source id="319" name="BMA-PC1GL-ACEL-1" title="BMA-PC1GL-ACEL-1"
+                  description="ACELERAÃ‡ÃƒO-1 NO PÃŠNDULO COMPOSTO (COM 1 GRAU DE LIBERDADE) DA BANCADA DE MECÃ‚NICA APLICADA"
+                  index="0" queue="1203" dataSourceType="803" location="1410" />
+                  </data-sources>
+          </component>
+          <component id="111" name="PÃªndulo Simples 2GL" title="PÃªndulo Simples 2GL"
+              description="PÃªndulo Simples com 2 Graus de Liberdade">
+              <data-sources>
+                <data-source id="320" name="BMA-PS2GL-ACEL-1" title="BMA-PS2GL-ACEL-1"
+                  description="ACELERAÃ‡ÃƒO-1 NO PÃŠNDULO SIMPLES (COM 2 GRAUS DE LIBERDADE) DA BANCADA DE MECÃ‚NICA APLICADA"
+                  index="1" queue="1203" dataSourceType="803" location="1411" />
+                  <data-source id="321" name="BMA-PS2GL-ACEL-2" title="BMA-PS2GL-ACEL-2"
+                  description="ACELERAÃ‡ÃƒO-2 NO PÃŠNDULO SIMPLES (COM 2 GRAUS DE LIBERDADE) DA BANCADA DE MECÃ‚NICA APLICADA"
+                  index="2" queue="1203" dataSourceType="803" location="1411" />
+                  <data-source id="322" name="BMA-PS2GL-ACEL-3" title="BMA-PS2GL-ACEL-3"
+                  description="ACELERAÃ‡ÃƒO-3 NO PÃŠNDULO SIMPLES (COM 2 GRAUS DE LIBERDADE) DA BANCADA DE MECÃ‚NICA APLICADA"
+                  index="3" queue="1203" dataSourceType="803" location="1411" />
+            </data-sources>
+              </component>
+             <component id="112" name="PÃªndulo Simples 3GL" title="PÃªndulo Simples 3GL"
+              description="PÃªndulo Simples com 3 Graus de Liberdade">
+              <data-sources>
+                <data-source id="323" name="BMA-PS3GL-ACEL-1" title="BMA-PS3GL-ACEL-1"
+                  description="ACELERAÃ‡ÃƒO-1 NO PÃŠNDULO SIMPLES (COM 3 GRAUS DE LIBERDADE) DA BANCADA DE MECÃ‚NICA APLICADA"
+                  index="4" queue="1203" dataSourceType="803" location="1412" />
+              <data-source id="324" name="BMA-PS3GL-ACEL-2" title="BMA-PS3GL-ACEL-2"
+                  description="ACELERAÃ‡ÃƒO-2 NO PÃŠNDULO SIMPLES (COM 3 GRAUS DE LIBERDADE) DA BANCADA DE MECÃ‚NICA APLICADA"
+                  index="5" queue="1203" dataSourceType="803" location="1412" />
+              <data-source id="325" name="BMA-PS3GL-ACEL-3" title="BMA-PS3GL-ACEL-3"
+                  description="ACELERAÃ‡ÃƒO-3 NO PÃŠNDULO SIMPLES (COM 3 GRAUS DE LIBERDADE) DA BANCADA DE MECÃ‚NICA APLICADA"
+                  index="6" queue="1203" dataSourceType="803" location="1412" />
+                    <data-source id="326" name="BMA-PS3GL-ACEL-4" title="BMA-PS3GL-ACEL-4"
+                  description="ACELERAÃ‡ÃƒO-4 NO PÃŠNDULO SIMPLES (COM 3 GRAUS DE LIBERDADE) DA BANCADA DE MECÃ‚NICA APLICADA"
+                  index="7" queue="1203" dataSourceType="803" location="1412" />
+              </data-sources>
+          </component>
+          <component id="113" name="PÃªndulo Composto 2GL" title="PÃªndulo Composto 2GL"
+             description="PÃªndulo Composto com 2 Graus de Liberdade">
+              <data-sources>
+                <data-source id="327" name="BMA-PC2GL-ACEL-1" title="BMA-PC2GL-ACEL-1"
+                  description="ACELERAÃ‡ÃƒO-1 NO PÃŠNDULO COMPOSTO (COM 2 GRAUS DE LIBERDADE) DA BANCADA DE MECÃ‚NICA APLICADA"
+                  index="8" queue="1203" dataSourceType="803" location="1413" />
+                <data-source id="328" name="BMA-PC2GL-ACEL-2" title="BMA-PC2GL-ACEL-2"
+                  description="ACELERAÃ‡ÃƒO-2 NO PÃŠNDULO COMPOSTO (COM 2 GRAUS DE LIBERDADE) DA BANCADA DE MECÃ‚NICA APLICADA"
+                  index="9" queue="1203" dataSourceType="803" location="1413" />
+            </data-sources>
+          </component>
+              <component id="114" name="Sistema MK Vertical 1GL" title="Sistema MK Vertical 1GL"
+              description="Sistema Massa Molar Vertical com 1 Grau de Liberdade">
+              <data-sources>
+                <data-source id="329" name="BMA-SMKV1GL-ACEL-1" title="BMA-SMKV1GL-ACEL-1"
+                  description="ACELERAÃ‡ÃƒO-1 NO SISTEMA DE MASSA MOLAR VERTICAL (COM 1 GRAU DE LIBERDADE) DA BANCADA DE MECÃ‚NICA APLICADA"
+                  index="10" queue="1203" dataSourceType="803" location="1414" />
+            </data-sources>
+            </component>
+             <component id="115" name="Sistema MK Horizontal 1GL" title="Sistema MK Horizontal 1GL"
+              description="Sistema Massa Molar Horizontal com 1 Grau de Liberdade">
+              <data-sources>
+                <data-source id="330" name="BMA-SMKH1GL-ACEL-1" title="BMA-SMKH1GL-ACEL-1"
+                  description="ACELERAÃ‡ÃƒO-1 NO SISTEMA DE MASSA MOLAR HORIZONTAL (COM 1 GRAU DE LIBERDADE) DA BANCADA DE MECÃ‚NICA APLICADA"
+                  index="11" queue="1203" dataSourceType="803" location="1415" />
+            </data-sources>
+            </component>
+             <component id="116" name="Sistema MK Vertical 2GL" title="Sistema MK Vertical 2GL"
+              description="Sistema Massa Molar Vertical com 2 Graus de Liberdade">
+              <data-sources>
+                <data-source id="331" name="BMA-SMKV2GL-ACEL-1" title="BMA-SMKV2GL-ACEL-1"
+                  description="ACELERAÃ‡ÃƒO-1 NO SISTEMA DE MASSA MOLAR VERTICAL (COM 2 GRAUS DE LIBERDADE) DA BANCADA DE MECÃ‚NICA APLICADA"
+                  index="12" queue="1203" dataSourceType="803" location="1416" />
+                <data-source id="332" name="BMA-SMKV2GL-ACEL-2" title="BMA-SMKV2GL-ACEL-2"
+                  description="ACELERAÃ‡ÃƒO-2 NO SISTEMA DE MASSA MOLAR VERTICAL (COM 2 GRAUS DE LIBERDADE) DA BANCADA DE MECÃ‚NICA APLICADA"
+                  index="13" queue="1203" dataSourceType="803" location="1416" />
+            </data-sources>
+          </component>
+          <component id="117" name="Sistema MK Horizontal 2GL" title="Sistema MK Horizontal 2GL"
+              description="Sistema Massa Molar Horizontal com 2 Graus de Liberdade">
+              <data-sources>
+                <data-source id="333" name="BMA-SMKH2GL-ACEL-1" title="BMA-SMKH2GL-ACEL-1"
+                  description="ACELERAÃ‡ÃƒO-1 NO SISTEMA DE MASSA MOLAR HORIZONTAL (COM 2 GRAUS DE LIBERDADE) DA BANCADA DE MECÃ‚NICA APLICADA"
+                  index="0" queue="1205" dataSourceType="803" location="1417" />
+                <data-source id="334" name="BMA-SMKH2GL-ACEL-2" title="BMA-SMKH2GL-ACEL-2"
+                  description="ACELERAÃ‡ÃƒO-2 NO SISTEMA DE MASSA MOLAR HORIZONTAL (COM 2 GRAUS DE LIBERDADE) DA BANCADA DE MECÃ‚NICA APLICADA"
+                  index="1" queue="1205" dataSourceType="803" location="1417" />
+            </data-sources>
+          </component>
+         </components>
 
-			</items>
+        </item>
 
-		</plant>
-	</plant-list>
+      </items>
 
-	<type-list>
-		<type id="801" name="Deformação" title="Deformação" description="Deformação"
-			measurementUnit="1001" />
-		<type id="802" name="Deslocamento" title="Deslocamento"
-			description="Deslocamento" measurementUnit="1002" />
-		<type id="803" name="Aceleração" title="Aceleração" description="Aceleração"
-			measurementUnit="1003" />
-		<type id="804" name="Velocidade" title="Velocidade" description="Velocidade"
-			measurementUnit="1004" />
-		<type id="805" name="Expansão" title="Expansão" description="Expansão"
-			measurementUnit="1005" />
-		<type id="806" name="Excentricidade" title="Excentricidade"
-			description="Excentricidade" measurementUnit="1006" />
-		<type id="807" name="Desgaste" title="Desgaste" description="Desgaste"
-			measurementUnit="1007" />
-		<type id="808" name="Temperatura" title="Temperatura"
-			description="Temperatura" measurementUnit="1008" />
-		<type id="809" name="Temperatura da Tubulação" title="Temperatura da Tubulação"
-			description="Temperatura da Tubulação" measurementUnit="1009" />
-		<type id="810" name="Temperatura do Metal" title="Temperatura do Metal"
-			description="Temperatura do Metal" measurementUnit="1010" />
-		<type id="811" name="Temperatura Valvula" title="Temperatura Valvula"
-			description="Temperatura Valvula" measurementUnit="1011" />
-		<type id="812" name="Temperatura do Oleo" title="Temperatura do Oleo"
-			description="Temperatura do Oleo" measurementUnit="1012" />
-		<type id="813" name="Temperatura do Vapor" title="Temperatura do Vapor"
-			description="Temperatura do Vapor" measurementUnit="1013" />
-		<type id="814" name="Pressão Valvula" title="Pressão Valvula"
-			description="Pressão Valvula" measurementUnit="1014" />
-		<type id="815" name="Pressão Vapor" title="Pressão Vapor"
-			description="Pressão Vapor" measurementUnit="1015" />
-		<type id="816" name="Pressão Fluido" title="Pressão Fluido"
-			description="Pressão Fluido" measurementUnit="1016" />
-		<type id="817" name="Pressão" title="Pressão" description="Pressão"
-			measurementUnit="1017" />
-		<type id="818" name="Vazão" title="Vazão" description="Vazão"
-			measurementUnit="1018" />
-		<type id="819" name="Potencia Ativa" title="Potencia Ativa"
-			description="Potencia Ativa" measurementUnit="1019" />
-	</type-list>
-	<unit-list>
-		<measurement-unit id="1001" name="Deformação" title="Deformação"
-			description="Deformação" unit="micro e" />
-		<measurement-unit id="1002" name="Deslocamento"
-			title="Deslocamento" description="Deslocamento" unit="micron" />
-		<measurement-unit id="1003" name="Aceleração" title="Aceleração"
-			description="Aceleração" unit="g" />
-		<measurement-unit id="1004" name="Velocidade" title="Velocidade"
-			description="Velocidade" unit="rpm" />
-		<measurement-unit id="1005" name="Expansão" title="Expansão"
-			description="Expansão" unit="mm" />
-		<measurement-unit id="1006" name="Excentricidade"
-			title="Excentricidade" description="Excentricidade" unit="micron" />
-		<measurement-unit id="1007" name="Desgaste" title="Desgaste"
-			description="Desgaste" unit="mm" />
-		<measurement-unit id="1008" name="Temperatura" title="Temperatura"
-			description="Temperatura" unit="ºC" />
-		<measurement-unit id="1009" name="Temperatura da Tubulação"
-			title="Temperatura da Tubulação" description="Temperatura da Tubulação"
-			unit="ºC" />
-		<measurement-unit id="1010" name="Temperatura do Metal"
-			title="Temperatura do Metal" description="Temperatura do Metal" unit="ºC" />
-		<measurement-unit id="1011" name="Temperatura Valvula"
-			title="Temperatura Valvula" description="Temperatura Valvula" unit="ºC" />
-		<measurement-unit id="1012" name="Temperatura do Oleo"
-			title="Temperatura do Oleo" description="Temperatura do Oleo" unit="ºC" />
-		<measurement-unit id="1013" name="Temperatura do Vapor"
-			title="Temperatura do Vapor" description="Temperatura do Vapor" unit="ºC" />
-		<measurement-unit id="1014" name="Pressão Valvula"
-			title="Pressão Valvula" description="Pressão Valvula" unit="bar" />
-		<measurement-unit id="1015" name="Pressão Vapor"
-			title="Pressão Vapor" description="Pressão Vapor" unit="bar" />
-		<measurement-unit id="1016" name="Pressão Fluido"
-			title="Pressão Fluido" description="Pressão Fluido" unit="bar" />
-		<measurement-unit id="1017" name="Pressão" title="Pressão"
-			description="Pressão" unit="bar" />
-		<measurement-unit id="1018" name="Vazão" title="Vazão"
-			description="Vazão" unit="T/H" />
-		<measurement-unit id="1019" name="Potencia Ativa"
-			title="Potencia Ativa" description="Potencia Ativa" unit="MW" />
-	</unit-list>
-	<queue-list>
-		<queue id="1201" name="PXI-1_M-2_C-[0-7]" title="PXI-1_M-2_C-[0-7]"
-			description="PXI 1, PXI-4472 Modulo 2, canal 0 a 7" />
-		<queue id="1202" name="PXI-1_M-5_C-[0-3]" title="PXI-1_M-5_C-[0-3]"
-			description="PXI 1, PXI-6132 Modulo 5, canal 0 a 3" />
-		<queue id="1203" name="PXI-1_M-7_C-[0-15]" title="PXI-1_M-7_C-[0-15]"
-			description="PXI 1, PXI-4496 Modulo 7, canal 0 a 15" />
-		<queue id="1204" name="PXI-1_M-8_C-[0-3]" title="PXI-1_M-8_C-[0-3]"
-			description="PXI 1, PXI-6251 Modulo 8 (SCC-68), canal 0 a 3" />
-		<queue id="1205" name="PXI-1_M-9_C-[0-15]" title="PXI-1_M-9_C-[0-15]"
-			description="PXI 1, PXI-Esta fila ainda não foi configurada no messor, aguardando definição de módulo de aceleração" />
-	</queue-list>
-	<location-list>
-		<location id="1401" name="Mancal Superior" title="Mancal Superior"
-			description="Mancal Superior" />
-		<location id="1402" name="Mancal Inferior" title="Mancal Inferior"
-			description="Mancal Inferior" />
-		<location id="1403" name="Eixo Vertical" title="Eixo Vertical"
-			description="Eixo Vertical" />
-		<location id="1404" name="Estrutura Externa MRV" title="Estrutura Externa MRV"
-			description="Estrutura Externa MRV" />
-		<location id="1405" name="Mancal Motor" title="Mancal Motor"
-			description="Mancal Motor" />
-		<location id="1406" name="Mancal" title="Mancal" description="Mancal" />
-		<location id="1407" name="Eixo horizontal" title="Eixo horizontal"
-			description="Eixo horizontal" />
-		<location id="1408" name="Estrutura Externa MRH" title="Estrutura Externa MRH"
-			description="Estrutura Externa MRH" />
-		<location id="1409" name="Pêndulo Simples 1 GL" title="Pêndulo Simples 1 GL"
-			description="Pêndulo Simples 1 GL" />
-		<location id="1410" name="Pêndulo Composto 1 GL" title="Pêndulo Composto 1 GL"
-			description="Pêndulo Composto 1 GL" />
-		<location id="1411" name="Pêndulo Simples 2 GL" title="Pêndulo Simples 2 GL"
-			description="Pêndulo Simples 2 GL" />
-		<location id="1412" name="Pêndulo Simples 3 GL" title="Pêndulo Simples 3 GL"
-			description="Pêndulo Simples 3 GL" />
-		<location id="1413" name="Pêndulo Composto 2 GL" title="Pêndulo Composto 2 GL"
-			description="Pêndulo Composto 2 GL" />
-		<location id="1414" name="Sistema MK Vertical 1 GL" title="Pêndulo Composto 1 GL"
-			description="Sistema MK Vertical 1 GL" />
-		<location id="1415" name="Sistema MK Horizontal 1 GL" title="Sistema MK Horizontal 1 GL"
-			description="Sistema MK Horizontal 1 GL" />
-		<location id="1416" name="Sistema MK Vertical 2 GL" title="Pêndulo Composto 2 GL"
-			description="Sistema MK Vertical 2 GL" />
-		<location id="1417" name="Sistema MK Horizontal 2 GL" title="Sistema MK Horizontal 2 GL"
-			description="Sistema MK Horizontal 2 GL" />
-	</location-list>
+    </plant>
+  </plant-list>
 
-	<historical-tag-list>
-		<historical-tag name="avg" title="Média"
-			className="br.cepel.services.historical.tags.AverageCalculator"
-			config="{}" />
-		<historical-tag name="min" title="Mínimo"
-			className="br.cepel.services.historical.tags.MinimumCalculator"
-			config="{}" />
-		<historical-tag name="max" title="Máxmio"
-			className="br.cepel.services.historical.tags.MaximumCalculator"
-			config="{}" />
-		<historical-tag name="rms" title="RMS"
-			className="br.cepel.services.historical.tags.RmsCalculator" config="{}" />
-	</historical-tag-list>
+  <type-list>
+    <type id="801" name="DeformaÃ§Ã£o" title="DeformaÃ§Ã£o" description="DeformaÃ§Ã£o"
+      measurementUnit="1001" />
+    <type id="802" name="Deslocamento" title="Deslocamento"
+      description="Deslocamento" measurementUnit="1002" />
+    <type id="803" name="AceleraÃ§Ã£o" title="AceleraÃ§Ã£o" description="AceleraÃ§Ã£o"
+      measurementUnit="1003" />
+    <type id="804" name="Velocidade" title="Velocidade" description="Velocidade"
+      measurementUnit="1004" />
+    <type id="805" name="ExpansÃ£o" title="ExpansÃ£o" description="ExpansÃ£o"
+      measurementUnit="1005" />
+    <type id="806" name="Excentricidade" title="Excentricidade"
+      description="Excentricidade" measurementUnit="1006" />
+    <type id="807" name="Desgaste" title="Desgaste" description="Desgaste"
+      measurementUnit="1007" />
+    <type id="808" name="Temperatura" title="Temperatura"
+      description="Temperatura" measurementUnit="1008" />
+    <type id="809" name="Temperatura da TubulaÃ§Ã£o" title="Temperatura da TubulaÃ§Ã£o"
+      description="Temperatura da TubulaÃ§Ã£o" measurementUnit="1009" />
+    <type id="810" name="Temperatura do Metal" title="Temperatura do Metal"
+      description="Temperatura do Metal" measurementUnit="1010" />
+    <type id="811" name="Temperatura Valvula" title="Temperatura Valvula"
+      description="Temperatura Valvula" measurementUnit="1011" />
+    <type id="812" name="Temperatura do Oleo" title="Temperatura do Oleo"
+      description="Temperatura do Oleo" measurementUnit="1012" />
+    <type id="813" name="Temperatura do Vapor" title="Temperatura do Vapor"
+      description="Temperatura do Vapor" measurementUnit="1013" />
+    <type id="814" name="PressÃ£o Valvula" title="PressÃ£o Valvula"
+      description="PressÃ£o Valvula" measurementUnit="1014" />
+    <type id="815" name="PressÃ£o Vapor" title="PressÃ£o Vapor"
+      description="PressÃ£o Vapor" measurementUnit="1015" />
+    <type id="816" name="PressÃ£o Fluido" title="PressÃ£o Fluido"
+      description="PressÃ£o Fluido" measurementUnit="1016" />
+    <type id="817" name="PressÃ£o" title="PressÃ£o" description="PressÃ£o"
+      measurementUnit="1017" />
+    <type id="818" name="VazÃ£o" title="VazÃ£o" description="VazÃ£o"
+      measurementUnit="1018" />
+    <type id="819" name="Potencia Ativa" title="Potencia Ativa"
+      description="Potencia Ativa" measurementUnit="1019" />
+  </type-list>
+  <unit-list>
+    <measurement-unit id="1001" name="DeformaÃ§Ã£o" title="DeformaÃ§Ã£o"
+      description="DeformaÃ§Ã£o" unit="micro e" />
+    <measurement-unit id="1002" name="Deslocamento"
+      title="Deslocamento" description="Deslocamento" unit="micron" />
+    <measurement-unit id="1003" name="AceleraÃ§Ã£o" title="AceleraÃ§Ã£o"
+      description="AceleraÃ§Ã£o" unit="g" />
+    <measurement-unit id="1004" name="Velocidade" title="Velocidade"
+      description="Velocidade" unit="rpm" />
+    <measurement-unit id="1005" name="ExpansÃ£o" title="ExpansÃ£o"
+      description="ExpansÃ£o" unit="mm" />
+    <measurement-unit id="1006" name="Excentricidade"
+      title="Excentricidade" description="Excentricidade" unit="micron" />
+    <measurement-unit id="1007" name="Desgaste" title="Desgaste"
+      description="Desgaste" unit="mm" />
+    <measurement-unit id="1008" name="Temperatura" title="Temperatura"
+      description="Temperatura" unit="ÂºC" />
+    <measurement-unit id="1009" name="Temperatura da TubulaÃ§Ã£o"
+      title="Temperatura da TubulaÃ§Ã£o" description="Temperatura da TubulaÃ§Ã£o"
+      unit="ÂºC" />
+    <measurement-unit id="1010" name="Temperatura do Metal"
+      title="Temperatura do Metal" description="Temperatura do Metal" unit="ÂºC" />
+    <measurement-unit id="1011" name="Temperatura Valvula"
+      title="Temperatura Valvula" description="Temperatura Valvula" unit="ÂºC" />
+    <measurement-unit id="1012" name="Temperatura do Oleo"
+      title="Temperatura do Oleo" description="Temperatura do Oleo" unit="ÂºC" />
+    <measurement-unit id="1013" name="Temperatura do Vapor"
+      title="Temperatura do Vapor" description="Temperatura do Vapor" unit="ÂºC" />
+    <measurement-unit id="1014" name="PressÃ£o Valvula"
+      title="PressÃ£o Valvula" description="PressÃ£o Valvula" unit="bar" />
+    <measurement-unit id="1015" name="PressÃ£o Vapor"
+      title="PressÃ£o Vapor" description="PressÃ£o Vapor" unit="bar" />
+    <measurement-unit id="1016" name="PressÃ£o Fluido"
+      title="PressÃ£o Fluido" description="PressÃ£o Fluido" unit="bar" />
+    <measurement-unit id="1017" name="PressÃ£o" title="PressÃ£o"
+      description="PressÃ£o" unit="bar" />
+    <measurement-unit id="1018" name="VazÃ£o" title="VazÃ£o"
+      description="VazÃ£o" unit="T/H" />
+    <measurement-unit id="1019" name="Potencia Ativa"
+      title="Potencia Ativa" description="Potencia Ativa" unit="MW" />
+  </unit-list>
+  <queue-list>
+    <queue id="1201" name="PXI-1_M-2_C-[0-7]" title="PXI-1_M-2_C-[0-7]"
+      description="PXI 1, PXI-4472 Modulo 2, canal 0 a 7" />
+    <queue id="1202" name="PXI-1_M-5_C-[0-3]" title="PXI-1_M-5_C-[0-3]"
+      description="PXI 1, PXI-6132 Modulo 5, canal 0 a 3" />
+    <queue id="1203" name="PXI-1_M-7_C-[0-15]" title="PXI-1_M-7_C-[0-15]"
+      description="PXI 1, PXI-4496 Modulo 7, canal 0 a 15" />
+    <queue id="1204" name="PXI-1_M-8_C-[0-3]" title="PXI-1_M-8_C-[0-3]"
+      description="PXI 1, PXI-6251 Modulo 8 (SCC-68), canal 0 a 3" />
+    <queue id="1205" name="PXI-1_M-9_C-[0-15]" title="PXI-1_M-9_C-[0-15]"
+      description="PXI 1, PXI-Esta fila ainda nÃ£o foi configurada no messor, aguardando definiÃ§Ã£o de mÃ³dulo de aceleraÃ§Ã£o" />
+  </queue-list>
+  <location-list>
+    <location id="1401" name="Mancal Superior" title="Mancal Superior"
+      description="Mancal Superior" />
+    <location id="1402" name="Mancal Inferior" title="Mancal Inferior"
+      description="Mancal Inferior" />
+    <location id="1403" name="Eixo Vertical" title="Eixo Vertical"
+      description="Eixo Vertical" />
+    <location id="1404" name="Estrutura Externa MRV" title="Estrutura Externa MRV"
+      description="Estrutura Externa MRV" />
+    <location id="1405" name="Mancal Motor" title="Mancal Motor"
+      description="Mancal Motor" />
+    <location id="1406" name="Mancal" title="Mancal" description="Mancal" />
+    <location id="1407" name="Eixo horizontal" title="Eixo horizontal"
+      description="Eixo horizontal" />
+    <location id="1408" name="Estrutura Externa MRH" title="Estrutura Externa MRH"
+      description="Estrutura Externa MRH" />
+    <location id="1409" name="PÃªndulo Simples 1 GL" title="PÃªndulo Simples 1 GL"
+      description="PÃªndulo Simples 1 GL" />
+    <location id="1410" name="PÃªndulo Composto 1 GL" title="PÃªndulo Composto 1 GL"
+      description="PÃªndulo Composto 1 GL" />
+    <location id="1411" name="PÃªndulo Simples 2 GL" title="PÃªndulo Simples 2 GL"
+      description="PÃªndulo Simples 2 GL" />
+    <location id="1412" name="PÃªndulo Simples 3 GL" title="PÃªndulo Simples 3 GL"
+      description="PÃªndulo Simples 3 GL" />
+    <location id="1413" name="PÃªndulo Composto 2 GL" title="PÃªndulo Composto 2 GL"
+      description="PÃªndulo Composto 2 GL" />
+    <location id="1414" name="Sistema MK Vertical 1 GL" title="PÃªndulo Composto 1 GL"
+      description="Sistema MK Vertical 1 GL" />
+    <location id="1415" name="Sistema MK Horizontal 1 GL" title="Sistema MK Horizontal 1 GL"
+      description="Sistema MK Horizontal 1 GL" />
+    <location id="1416" name="Sistema MK Vertical 2 GL" title="PÃªndulo Composto 2 GL"
+      description="Sistema MK Vertical 2 GL" />
+    <location id="1417" name="Sistema MK Horizontal 2 GL" title="Sistema MK Horizontal 2 GL"
+      description="Sistema MK Horizontal 2 GL" />
+  </location-list>
 
-	<role-list>
-		<role id="1000" name="Analista" title="Analista" description="" />
-		<role id="1001" name="Administrador" title="Administrador"
-			description="Administrador do sistema SOMA." />
-		<role id="1002" name="manager-gui" title="Gerente Tomcat(GUI)"
-			description="Acesso às ferramentas de administração(Web em HTML) do Tomcat." />
-		<role id="1003" name="batch-runner" title="Executor de Scripts"
-			description="Executor de Scripts Batch acessando o SOMA." />
-		<role id="1004" name="manager-script" title="Gerente Tomcat(Texto)"
-			description="Acesso às ferramentas de administração(texto e script) do Tomcat." />
-		<role id="1005" name="tomee-admin" title="Administração Tomee+"
-			description="Acesso à ferramenta de configuração do Tomee." />
+  <historical-tag-list>
+    <historical-tag name="avg" title="MÃ©dia"
+      className="br.cepel.services.historical.tags.AverageCalculator"
+      config="{}" />
+    <historical-tag name="min" title="MÃ­nimo"
+      className="br.cepel.services.historical.tags.MinimumCalculator"
+      config="{}" />
+    <historical-tag name="max" title="MÃ¡xmio"
+      className="br.cepel.services.historical.tags.MaximumCalculator"
+      config="{}" />
+    <historical-tag name="rms" title="RMS"
+      className="br.cepel.services.historical.tags.RmsCalculator" config="{}" />
+  </historical-tag-list>
 
-	</role-list>
+  <role-list>
+    <role id="1000" name="Analista" title="Analista" description="" />
+    <role id="1001" name="Administrador" title="Administrador"
+      description="Administrador do sistema SOMA." />
+    <role id="1002" name="manager-gui" title="Gerente Tomcat(GUI)"
+      description="Acesso Ã s ferramentas de administraÃ§Ã£o(Web em HTML) do Tomcat." />
+    <role id="1003" name="batch-runner" title="Executor de Scripts"
+      description="Executor de Scripts Batch acessando o SOMA." />
+    <role id="1004" name="manager-script" title="Gerente Tomcat(Texto)"
+      description="Acesso Ã s ferramentas de administraÃ§Ã£o(texto e script) do Tomcat." />
+    <role id="1005" name="tomee-admin" title="AdministraÃ§Ã£o Tomee+"
+      description="Acesso Ã  ferramenta de configuraÃ§Ã£o do Tomee." />
 
-	<user-list>
-		<user id="2000" name="soma" title="Sistema SOMA"
-			description="Usuário que representa o sistema SOMA" password="3411e1527f87a4453f5c00400f625e2db5a6c987">
-			<role-list>
-				<role id="1001" />
-				<role id="1002" />
-				<role id="1004" />
-				<role id="1005" />
-			</role-list>
-		</user>
-	</user-list>
+  </role-list>
 
-	<application-list>
-		<application name="analysis" title="Análise"
-			description="Módulo responsável pela a análise de sinais capturados pelo SOMA.">
-			<allowed-roles>
-				<role id="1000" />
-				<role id="1001" />
-			</allowed-roles>
-			<feature-list>
-				<feature name="historical" title="Histórico"
-					description="Funcionalidade que permite a análise de séries históricas."
-					priority="0" config="{'tabs':'6'}"
-					interfaceClass="br.cepel.ria.feature.analysis.AnalysisHistoricalFeature">
-					<allowed-roles>
-						<role id="1000" />
-						<role id="1001" />
-					</allowed-roles>
-				</feature>
-				<feature name="residualLife" title="Vida Residual"
-					description="Funcionalidade que permite a análise de séries históricas. (Vida Residual)"
-					priority="1" config="{'tabs':'6'}"
-					interfaceClass="br.cepel.ria.feature.analysis.AnalysisResidualLifeFeature">
-					<allowed-roles>
-						<role id="1000" />
-						<role id="1001" />
-					</allowed-roles>
-				</feature>
-			</feature-list>
-		</application>
-		<application name="storageManager" title="Serviços SOMA"
-			description="Aplicação que executa serviços internos no SOMA.">
-			<allowed-roles>
-				<role id="1001" />
-			</allowed-roles>
-			<feature-list>
-				<feature name="historicalService" title="Serviço de histórico"
-					description="Serviço de gravação de dados históricos no formato SOMA."
-					priority="0" interfaceClass="br.cepel.services.HistoricalService"
-					config="{'secondsStaticPolicyInterval':'600', 
-							'secondsDynamicPolicyInterval':'600',
-							'staticHertzFrequencyThreshold':'15000'}">
-					<allowed-roles>
-						<role id="1001" />
-					</allowed-roles>
-				</feature>
-				<feature name="sadmService" title="Adaptador SADM"
-					description="Importa dados do supervisório para o SOMA." priority="0"
-					interfaceClass="br.cepel.services.SADMService"
-					config="{'jms-server-address':'jms-soma-server', 
-							'jms-server-port':'61616', 
-							'max-number-of-errors':'50'}">
-					<allowed-roles>
-						<role id="1001" />
-					</allowed-roles>
-				</feature>
-			</feature-list>
-		</application>
+  <user-list>
+    <user id="2000" name="soma" title="Sistema SOMA"
+      description="UsuÃ¡rio que representa o sistema SOMA" password="3411e1527f87a4453f5c00400f625e2db5a6c987">
+      <role-list>
+        <role id="1001" />
+        <role id="1002" />
+        <role id="1004" />
+        <role id="1005" />
+      </role-list>
+    </user>
+  </user-list>
 
-		<application name="mathcadIntegration" title="Integração com MathCAD"
-			description="Módulo que disponibiliza serviços aos usuários.">
-			<allowed-roles>
-				<role id="1001" />
-				<role id="1003" />
-			</allowed-roles>
-			<feature-list>
-				<feature name="getData" title="Obtendo Dados" description="obtem os dados"
-					priority="0" config="{}" interfaceClass="br.cepel.GetData">
-					<allowed-roles>
-						<role id="1001" />
-						<role id="1003" />
-					</allowed-roles>
-				</feature>
-				<feature name="putData" title="Gravando os Dados"
-					description="grava os dados" priority="0" config="{}"
-					interfaceClass="br.cepel.PutData">
-					<allowed-roles>
-						<role id="1001" />
-						<role id="1003" />
-					</allowed-roles>
-				</feature>
-			</feature-list>
-		</application>
-	</application-list>
-	<messor-list>
-		<messor name="Messor 1">
-			</aquisitor>
-			<aquisitor address="PXI-1" type="Local" description="PXI 1"
-				code="a1">
-				<module address="M-2" description="Modulo 2 do PXI 1" code="a1.m2">
-					<channel address="C[0-7]" teds-file="" type="Vibração (Aceleração)"
-						frequency="1000" sample="512" queue="1201" publisher="201" chain=""
-						startIndex="0" endIndex="7" code="a1.m2.ca" />
-				</module>
-				<module address="M-5" description="Modulo 5 do PXI 1" code="a1.m5">
-					<channel address="C[0-3]" teds-file="" type="Vibração (Deslocamento)"
-						frequency="512" sample="512" queue="1202" publisher="202" chain=""
-						startIndex="0" endIndex="3" code="a1.m5.ca" />
-				</module>
-				<module address="M-7" description="Modulo 7 do PXI 1" code="a1.m7">
-					<channel address="C[0-15]" teds-file="" type="Vibração (Aceleração)"
-						frequency="512" sample="512" queue="1203" publisher="203" chain=""
-						startIndex="0" endIndex="15" code="a1.m7.ca" />
-				</module>
-				<module address="M-8" description="Modulo 8 do PXI 1 (SCC-68)" code="a1.m8">
-					<channel address="C[0-3]" teds-file="" type="Temperatura ºC"
-						frequency="512" sample="512" queue="1204" publisher="204" chain=""
-						startIndex="0" endIndex="3" code="a1.m8.c-0-3" />
-				</module>
-			</aquisitor>
+  <application-list>
+    <application name="analysis" title="AnÃ¡lise"
+      description="MÃ³dulo responsÃ¡vel pela a anÃ¡lise de sinais capturados pelo SOMA.">
+      <allowed-roles>
+        <role id="1000" />
+        <role id="1001" />
+      </allowed-roles>
+      <feature-list>
+        <feature name="historical" title="HistÃ³rico"
+          description="Funcionalidade que permite a anÃ¡lise de sÃ©ries histÃ³ricas."
+          priority="0" config="{'tabs':'6'}"
+          interfaceClass="br.cepel.ria.feature.analysis.AnalysisHistoricalFeature">
+          <allowed-roles>
+            <role id="1000" />
+            <role id="1001" />
+          </allowed-roles>
+        </feature>
+      </feature-list>
+    </application>
+    <application name="storageManager" title="ServiÃ§os SOMA"
+      description="AplicaÃ§Ã£o que executa serviÃ§os internos no SOMA.">
+      <allowed-roles>
+        <role id="1001" />
+      </allowed-roles>
+      <feature-list>
+        <feature name="historicalService" title="ServiÃ§o de histÃ³rico"
+          description="ServiÃ§o de gravaÃ§Ã£o de dados histÃ³ricos no formato SOMA."
+          priority="0" interfaceClass="br.cepel.services.HistoricalService"
+          config="{'secondsStaticPolicyInterval':'600',
+              'secondsDynamicPolicyInterval':'600',
+              'staticHertzFrequencyThreshold':'15000'}">
+          <allowed-roles>
+            <role id="1001" />
+          </allowed-roles>
+        </feature>
+      </feature-list>
+    </application>
+  </application-list>
+  <messor-list>
+    <messor name="Messor 1">
+      </aquisitor>
+      <aquisitor address="PXI-1" type="Local" description="PXI 1"
+        code="a1">
+        <module address="M-2" description="Modulo 2 do PXI 1" code="a1.m2">
+          <channel address="C[0-7]" teds-file="" type="VibraÃ§Ã£o (AceleraÃ§Ã£o)"
+            frequency="1000" sample="512" queue="1201" publisher="201" chain=""
+            startIndex="0" endIndex="7" code="a1.m2.ca" />
+        </module>
+        <module address="M-5" description="Modulo 5 do PXI 1" code="a1.m5">
+          <channel address="C[0-3]" teds-file="" type="VibraÃ§Ã£o (Deslocamento)"
+            frequency="512" sample="512" queue="1202" publisher="202" chain=""
+            startIndex="0" endIndex="3" code="a1.m5.ca" />
+        </module>
+        <module address="M-7" description="Modulo 7 do PXI 1" code="a1.m7">
+          <channel address="C[0-15]" teds-file="" type="VibraÃ§Ã£o (AceleraÃ§Ã£o)"
+            frequency="512" sample="512" queue="1203" publisher="203" chain=""
+            startIndex="0" endIndex="15" code="a1.m7.ca" />
+        </module>
+        <module address="M-8" description="Modulo 8 do PXI 1 (SCC-68)" code="a1.m8">
+          <channel address="C[0-3]" teds-file="" type="Temperatura ÂºC"
+            frequency="512" sample="512" queue="1204" publisher="204" chain=""
+            startIndex="0" endIndex="3" code="a1.m8.c-0-3" />
+        </module>
+      </aquisitor>
 
-			<publishers>
-				<publisher address="data-server" port="9199" id="201" />
-				<publisher address="data-server" port="9200" id="202" />
-				<publisher address="data-server" port="9201" id="203" />
-				<publisher address="data-server" port="9099" id="204" />
-			</publishers>
+      <publishers>
+        <publisher address="data-server" port="9199" id="201" />
+        <publisher address="data-server" port="9200" id="202" />
+        <publisher address="data-server" port="9201" id="203" />
+        <publisher address="data-server" port="9099" id="204" />
+      </publishers>
 
-			<chains>
-				<chain id="c1" description="Converte o sinal para potencia (Mega Watts)">
-					<handle name="convertPower" code="h1" />
-				</chain>
-				<chain id="c2" description="Converte o sinal para pressao (kg / cm.cm)">
-					<handle name="convertPressure" code="h2" />
-				</chain>
-				<chain id="c3" description="Converte o sinal para 0.0 ou 1.0">
-					<handle name="convertToBoolean" code="h3" />
-				</chain>
-				<chain id="c4" description="Remove o DC do sinal">
-					<handle name="removeDC" code="h4" />
-				</chain>
-			</chains>
-		</messor>
-	</messor-list>
+      <chains>
+        <chain id="c1" description="Converte o sinal para potencia (Mega Watts)">
+          <handle name="convertPower" code="h1" />
+        </chain>
+        <chain id="c2" description="Converte o sinal para pressao (kg / cm.cm)">
+          <handle name="convertPressure" code="h2" />
+        </chain>
+        <chain id="c3" description="Converte o sinal para 0.0 ou 1.0">
+          <handle name="convertToBoolean" code="h3" />
+        </chain>
+        <chain id="c4" description="Remove o DC do sinal">
+          <handle name="removeDC" code="h4" />
+        </chain>
+      </chains>
+    </messor>
+  </messor-list>
 </somaConfig>
 
 
